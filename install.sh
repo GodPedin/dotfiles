@@ -20,4 +20,8 @@ cp kde/plasma-org.kde.plasma.desktop-appletsrc ~/.config/
 cp kde/kscreenlockerrc ~/.config/
 [ -f kde/ksplashrc ] && cp kde/ksplashrc ~/.config/
 
+# Kitty
+mkdir -p ~/.config/kitty
+cp -r kitty/.config/kitty/* ~/.config/kitty/
+
 echo "Concluido.Reinicie a sessao"
