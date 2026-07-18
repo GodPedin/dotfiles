@@ -1,0 +1,3 @@
+*.log
+.cache/
+.local/share/Trash/
